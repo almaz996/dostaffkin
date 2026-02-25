@@ -6,7 +6,7 @@ import { catchError, Observable, of } from 'rxjs';
   providedIn: 'root',
 })
 export class DeliveryApi {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   createDelivery(payload: any): Observable<any> {
     return this.http
